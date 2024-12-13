@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\avatar\\8af45db1-467e-4daf-988f-5adb431a93a7.jpg",
+      "PackagePath": "staticwebassets\\avatar\\8af45db1-467e-4daf-988f-5adb431a93a7.jpg"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\avatar\\ac1a88b1-0e81-43eb-8c58-f2088826351d.png",
+      "PackagePath": "staticwebassets\\avatar\\ac1a88b1-0e81-43eb-8c58-f2088826351d.png"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\background\\35167161-47f8-401d-967f-f681b2f0ceb6.jpg",
+      "PackagePath": "staticwebassets\\background\\35167161-47f8-401d-967f-f681b2f0ceb6.jpg"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\background\\f78ae1bc-3a7e-4391-a38e-3128f0f55cdf.jpg",
+      "PackagePath": "staticwebassets\\background\\f78ae1bc-3a7e-4391-a38e-3128f0f55cdf.jpg"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\thumbnail\\39bc8bf1-cf28-4cfe-9368-22d2ad64f98a.jpg",
+      "PackagePath": "staticwebassets\\thumbnail\\39bc8bf1-cf28-4cfe-9368-22d2ad64f98a.jpg"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\thumbnail\\5b32a210-7ea6-4220-a653-1b77a3b1670c.png",
+      "PackagePath": "staticwebassets\\thumbnail\\5b32a210-7ea6-4220-a653-1b77a3b1670c.png"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\thumbnail\\e04a413f-bfb2-4eb9-b315-13fff6f55415.png",
+      "PackagePath": "staticwebassets\\thumbnail\\e04a413f-bfb2-4eb9-b315-13fff6f55415.png"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\thumbnail\\f297b923-9dbb-40ff-9a5f-edeabc540357.jpg",
+      "PackagePath": "staticwebassets\\thumbnail\\f297b923-9dbb-40ff-9a5f-edeabc540357.jpg"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\thumbnail\\f63a783e-3d50-4fcb-886c-43069f2f2a41.jpg",
+      "PackagePath": "staticwebassets\\thumbnail\\f63a783e-3d50-4fcb-886c-43069f2f2a41.jpg"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\088edc51-f505-408c-83e4-c2846ff472fc.mp4",
+      "PackagePath": "staticwebassets\\video\\088edc51-f505-408c-83e4-c2846ff472fc.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\18fb9c6f-b818-4eb1-b6d1-ff64ed8c221d.mp4",
+      "PackagePath": "staticwebassets\\video\\18fb9c6f-b818-4eb1-b6d1-ff64ed8c221d.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\385c7388-148b-4d98-82da-2ea732f85285.mp4",
+      "PackagePath": "staticwebassets\\video\\385c7388-148b-4d98-82da-2ea732f85285.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\b274c808-00c4-435b-9717-45da93ef56d4.mp4",
+      "PackagePath": "staticwebassets\\video\\b274c808-00c4-435b-9717-45da93ef56d4.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\b3b44249-d8ca-4443-8800-372832413625.mp4",
+      "PackagePath": "staticwebassets\\video\\b3b44249-d8ca-4443-8800-372832413625.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\f7e3b86f-2093-441d-8b72-f5b205b5cbb3.mp4",
+      "PackagePath": "staticwebassets\\video\\f7e3b86f-2093-441d-8b72-f5b205b5cbb3.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\fd4f7a8f-b389-487c-8ade-437f2f829416.mp4",
+      "PackagePath": "staticwebassets\\video\\fd4f7a8f-b389-487c-8ade-437f2f829416.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E-LearningApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.E-LearningApi.props",
+      "PackagePath": "build\\E-LearningApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.E-LearningApi.props",
+      "PackagePath": "buildMultiTargeting\\E-LearningApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.E-LearningApi.props",
+      "PackagePath": "buildTransitive\\E-LearningApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,644 @@
+/* .product_form_container_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f6f8fa;
+} */
+
+/* =================================================== Form ========================================================= */
+
+.product_form_container {
+  max-width: 1000px;
+  width: 100vw;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1),
+    0px 5px 12px -2px rgba(0, 0, 0, 0.1), 0px 18px 36px -6px rgba(0, 0, 0, 0.1);
+
+  overflow: hidden;
+  margin: 10px;
+}
+
+.profile_form_container {
+  max-width: 1000px;
+  width: 80vw;
+  max-height: 99vh;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1),
+    0px 5px 12px -2px rgba(0, 0, 0, 0.1), 0px 18px 36px -6px rgba(0, 0, 0, 0.1);
+
+  overflow-y: auto;
+  margin: 10px;
+}
+
+.product_form_container .title,
+.profile_form_container .title {
+  padding: 1rem;
+  background: #f6f8fa;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_form_container .title p,
+.profile_form_container .title p {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.product_form_container .title p::before,
+.profile_form_container .title p::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: linear-gradient(
+    to right,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(55, 0, 182, 1) 0%,
+    rgba(0, 186, 217, 1) 100%
+  );
+}
+
+.product_form_container .title .closeBtn,
+.profile_form_container .title .closeBtn {
+  font-size: 30px;
+  font-weight: 400;
+  padding: 0 15px;
+  color: #4200f7;
+  cursor: pointer;
+}
+
+.product_form_container .title .closeBtn:hover,
+.profile_form_container .title .closeBtn:hover {
+  background-color: #4200f7;
+  color: #fff;
+}
+
+.product_form {
+  padding: 5px 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.user_details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px;
+
+  gap: 10px;
+}
+
+/* ============================================= Input Area ======================================================= */
+
+.user_details .input_box {
+  width: 100%;
+  margin: 0 0 8px 0;
+}
+
+.user_details .input_box-select {
+  width: calc(100% / 2 - 20px);
+  margin: 0 0 8px 0;
+}
+
+.user_details .input_box-half {
+  width: calc(100% / 2 - 20px);
+  margin: 0 0 8px 0;
+}
+
+.input_box label,
+.input_box-select label,
+.input_box-half label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input_box .form_validation,
+.input_box-select .form_validation,
+.input_box-half .form_validation,
+.dropzone-img-container .form_validation {
+  font-size: small;
+  font-weight: 500;
+  color: red;
+  margin-top: 5px;
+  display: block;
+}
+
+.input_box label::after,
+.input_box-select label::after,
+.input_box-half label::after,
+.dropzone-img-container span::after {
+  content: " *";
+  color: red;
+}
+
+.input_box label.has-value::after,
+.input_box-select label.has-value::after,
+.input_box-half label.has-value::after,
+.dropzone-img-container span.has-value::after {
+  content: "";
+}
+
+.input_box input,
+.input_box-select select,
+.input_box-half input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 15px;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f6f8fa;
+  font-family: "Poppins", sans-serif;
+  transition: all 120ms ease-out 0s;
+}
+
+.input_box input:focus,
+.input_box-select select:focus,
+.input_box textarea:focus,
+.input_box-half input:focus {
+  box-shadow: 0px 0px 0px 2px #4200f7;
+}
+
+.input_box .file_input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 0;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f6f8fa;
+  font-family: "Poppins", sans-serif;
+  transition: all 120ms ease-out 0s;
+}
+
+.input_box ::-webkit-file-upload-button {
+  background: darkblue;
+  color: #fff;
+  height: 100%;
+  padding: 5px 10px;
+}
+
+.input_box textarea {
+  width: 100%;
+  height: 170px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-top: 9px;
+  padding-left: 7px;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f6f8fa;
+  font-family: "Poppins", sans-serif;
+  transition: all 120ms ease-out 0s;
+}
+
+.upload_img {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.imgholder {
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 15px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.image.has-image {
+  animation: transitionIn 2s ease-out forwards;
+}
+
+@keyframes transitionIn {
+  from {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+/* ===================================== Dropzone Image ========================================= */
+.dropzone-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  width: 100%;
+}
+
+.dropzone-img-container span {
+  align-self: self-start;
+}
+
+.drop-area {
+  width: 100%;
+  height: 300px;
+  padding: 10px 30px;
+  background: #fff;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.img-view {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 2px dashed #bbb5ff;
+  background: #f7f8ff;
+  background-position: center;
+  background-size: cover;
+}
+
+.drop-area-circle {
+  width: 260px;
+  height: 260px;
+  background: #fff;
+  text-align: center;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.img-view-circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px dashed #bbb5ff;
+  background: #f7f8ff;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-view img {
+  width: 100px;
+  margin-top: 25px;
+}
+
+.img-view-circle img {
+  width: 70px;
+  margin-top: 20%;
+}
+
+.img-view span {
+  display: block;
+  font-size: 12px;
+  color: #777;
+  margin-top: 15px;
+}
+
+.img-view-circle span {
+  display: block;
+  font-size: 11px;
+  color: #777;
+  margin-top: 15px;
+}
+
+/* ======================================== Gender =========================================== */
+
+form .gender {
+  padding: 0px 25px;
+}
+
+.gender .gender_title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.gender .category {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.gender .category label {
+  display: flex;
+  align-items: center;
+}
+
+.gender .category label .dot {
+  height: 18px;
+  width: 18px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 4px solid transparent;
+  transition: all 0.3s ease;
+}
+
+#radio_1:checked ~ .category label .one,
+#radio_2:checked ~ .category label .two,
+#radio_3:checked ~ .category label .three {
+  border-color: #d9d9d9;
+  background: #d64141;
+}
+
+.gender input {
+  display: none;
+}
+
+.reg_btn {
+  padding: 15px;
+}
+
+.reg_btn_profile {
+  padding: 15px;
+  margin: 1rem 0;
+}
+
+.reg_btn input,
+.reg_btn_profile input {
+  height: 45px;
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  /* background: linear-gradient(to right, #f37a65, #d64141); */
+  background: linear-gradient(
+    149deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(55, 0, 182, 1) 0%,
+    rgba(0, 186, 217, 1) 100%
+  );
+  border-radius: 5px;
+  color: #f5f5f5;
+  letter-spacing: 1px;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.reg_btn input:hover,
+.reg_btn_profile input:hover {
+  background: linear-gradient(
+    149deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 186, 217, 1) 0%,
+    rgba(55, 0, 182, 1) 100%
+  );
+}
+
+/* ============================================== Modal ================================================= */
+
+.dark_bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  z-index: 1005;
+}
+
+.popup {
+  /* border-radius: 5px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
+    background: #404346; */
+  transition: 0.2s ease;
+  transform: scale(0.7);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup_active {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup-update {
+  animation: popupUpdate 0.3s ease-in-out forwards;
+}
+
+.popup-close-update {
+  animation: popupCloseUpdate 0.3s ease forwards;
+}
+
+@keyframes popupUpdate {
+  from {
+    transform: scale(0.4);
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes popupCloseUpdate {
+  from {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+  to {
+    transform: scale(0.7);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/* ========================================== Delete Area ===========================================   */
+.delete_form_container {
+  max-width: 500px;
+  width: 100vw;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1),
+    0px 5px 12px -2px rgba(0, 0, 0, 0.1), 0px 18px 36px -6px rgba(0, 0, 0, 0.1);
+
+  overflow: hidden;
+  margin: 10px;
+}
+
+.delete_form_container .title {
+  padding: 1rem;
+  background: #f6f8fa;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete_form_container .title p {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.delete_form_container .title p::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: linear-gradient(
+    149deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(182, 0, 0, 1) 0%,
+    rgba(217, 167, 0, 1) 100%
+  );
+}
+
+.delete_form_container .title .closeBtn {
+  font-size: 30px;
+  font-weight: 400;
+  padding: 0 15px;
+  color: #4200f7;
+  cursor: pointer;
+}
+
+.delete_form_container .title .closeBtn:hover {
+  background-color: #4200f7;
+  color: #fff;
+}
+
+.delete_area_container {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.delete_area {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.delete_icon_holder {
+  width: 100%;
+  height: 100px;
+  margin: 0 15px 0;
+  object-fit: fill;
+}
+
+.delete_area_description {
+  width: 100%;
+  height: 70px;
+  /* margin: 0 15px; */
+  justify-content: center;
+  padding-top: 15px;
+  font-size: x-large;
+}
+
+.delete_icon {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.delete_area_footer {
+  width: 100%;
+  height: 50px;
+  margin: 0 15px;
+  margin: 10px 0 10px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.delete_area_footer button {
+  padding: 0.75rem 1.5rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.delete_area_footer button:hover {
+  background-color: var(--blue);
+  color: #fff;
+}
+
+/* ========================== Responsive ====================================== */
+
+@media (max-width: 645px) {
+  .product_form {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+  }
+
+  .imgholder {
+    width: 300px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 584px) {
+  .user_details {
+    max-height: 551px;
+    overflow-y: scroll;
+  }
+
+  .user_details::-webkit-scrollbar {
+    width: 0;
+  }
+
+  /* .user_details .input_box{
+        width: 100%;
+    } */
+
+  .gender .category {
+    width: 100%;
+  }
+}
+
+@media (max-width: 419px) {
+  .product_form {
+    height: 500px;
+  }
+  .imgholder {
+    width: 280px;
+    height: 140px;
+  }
+  .user_details {
+    max-height: 250px;
+    overflow-y: scroll;
+  }
+
+  .user_details .input_box-select {
+    width: 100%;
+  }
+
+  form .gender {
+    padding-top: 10px;
+  }
+  .gender .category {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 380px) {
+  .delete_area {
+    width: 100%;
+  }
+}

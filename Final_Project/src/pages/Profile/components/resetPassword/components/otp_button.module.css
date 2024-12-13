@@ -1,0 +1,20 @@
+.pinInput {
+  /* --pin-input-size: 120px; */
+  --input-radius: 20px !important;
+  --otp-input-width: 100px;
+  --opt-input-height: 140px;
+  width: var(--otp-input-width) !important;
+  height: var(--opt-input-height) !important;
+  border-radius: 20px !important;
+}
+
+.input {
+  /* --input-size: 120px; */
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 32px;
+}
+
+.root {
+  --input-height: 120px;
+}

@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>E-LearningApi</name>
+    </assembly>
+    <members>
+        <member name="M:E_LearningApi.Controllers.AuthController.Register(E_LearningApi.DTOs.Auth.RegisterRequest,System.Threading.CancellationToken)">
+            <summary>
+               Registering a new account
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.AuthController.Login(E_LearningApi.DTOs.Auth.LoginRequest)">
+            <summary>
+              Login to get JWT
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.AuthController.GetProfile(System.Threading.CancellationToken)">
+            <summary>
+              Get profile of current user
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.AuthController.GetAll(Sieve.Models.SieveModel)">
+            <summary>
+              Get All Users
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CartsController.GetCart(System.Threading.CancellationToken)">
+            <summary>
+                Get Cart
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CartsController.AddToCart(E_LearningApi.DTOs.CartItem.CreateCartItemRequest,System.Threading.CancellationToken)">
+            <summary>
+                Add to Cart
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CartsController.RemoveFromCart(E_LearningApi.DTOs.CartItem.DeleteCartItemRequest,System.Threading.CancellationToken)">
+            <summary>
+                Remove From Cart
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CategoriesController.GetAllCategory(Sieve.Models.SieveModel)">
+            <summary>
+                Get All Categories
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CategoriesController.CreateCategory(E_LearningApi.DTOs.Category.CreateCategoryRequest,System.Threading.CancellationToken)">
+            <summary>
+                Create new Category
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CategoriesController.GetCategoryById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Get Category by Id
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CategoriesController.UpdateCategory(System.Guid,E_LearningApi.DTOs.Category.UpdateCategoryRequest,System.Threading.CancellationToken)">
+            <summary>
+                Update Category
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CategoriesController.DeleteCategory(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Detele Category
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CourseGroupsController.GetAllCourseGroup(Sieve.Models.SieveModel)">
+            <summary>
+                Get All Course Groups
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CourseGroupsController.GetCourseGroupById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Get Course Group by Id
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CourseGroupsController.CreateCategory(E_LearningApi.DTOs.CourseGroup.CreateCourseGroupRequest,System.Threading.CancellationToken)">
+            <summary>
+                Create new Course Group
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CourseGroupsController.UpdateCategory(System.Guid,E_LearningApi.DTOs.CourseGroup.UpdateCourseGroupRequest,System.Threading.CancellationToken)">
+            <summary>
+                Update Course Group
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CourseGroupsController.DeleteCategory(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Detele Course Groups
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CoursesController.GetAllCourses(Sieve.Models.SieveModel)">
+            <summary>
+                Get All Courses
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CoursesController.GetCourseById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Get Course By Id
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CoursesController.CreateCourse(E_LearningApi.DTOs.Course.CreateCourseRequest,System.Threading.CancellationToken)">
+            <summary>
+                Create new Course
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CoursesController.UpdateCourse(System.Guid,E_LearningApi.DTOs.Course.UpdateCourseRequest,System.Threading.CancellationToken)">
+            <summary>
+                Update Course
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.CoursesController.DeleteCourse(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Delete Course
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.EnrollmentsController.GetAllCategory(Sieve.Models.SieveModel)">
+            <summary>
+                Get All Enrollments
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.EnrollmentsController.GetEnrollmentById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Get Enrollment by Id
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.LessonsController.GetAllLessons(Sieve.Models.SieveModel)">
+            <summary>
+                Get All Lessons
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.LessonsController.GetAllLessonsInSession(Sieve.Models.SieveModel,System.Guid)">
+            <summary>
+                Get All Lessons in Session
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.LessonsController.GetLessonById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Get Lesson By Id
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.LessonsController.CreateLesson(System.Guid,E_LearningApi.DTOs.Lesson.CreateLessonRequest,System.Threading.CancellationToken)">
+            <summary>
+                Create new Lesson
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.LessonsController.UpdateLesson(System.Guid,E_LearningApi.DTOs.Lesson.UpdateLessonRequest,System.Threading.CancellationToken)">
+            <summary>
+                Update Lesson
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.LessonsController.DeleteLesson(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Delete Lesson
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.RatingsController.GetAllSessions(Sieve.Models.SieveModel)">
+            <summary>
+                Get All Ratings
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.RatingsController.GetRatingByCourseId(Sieve.Models.SieveModel,System.Guid)">
+            <summary>
+                Get All Ratings in Course
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.RatingsController.CreateRating(E_LearningApi.DTOs.Rating.CreateRatingRequest,System.Threading.CancellationToken)">
+            <summary>
+                Create new Rating
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.RatingsController.GetRatingById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Get Rating by Id
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.RatingsController.UpdateRating(E_LearningApi.DTOs.Rating.EditRatingRequest,System.Threading.CancellationToken)">
+            <summary>
+                Update Rating
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.RatingsController.DeleteRating(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Detele Rating
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.SessionsController.GetAllSessions(Sieve.Models.SieveModel)">
+            <summary>
+                Get All Sessions
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.SessionsController.GetAllSessionsInCourse(Sieve.Models.SieveModel,System.Guid)">
+            <summary>
+                Get All Sessions in Course
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.SessionsController.CreateSession(System.Guid,E_LearningApi.DTOs.Session.CreateSessionRequest,System.Threading.CancellationToken)">
+            <summary>
+                Create new Session
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.SessionsController.GetSessionById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Get Session by Id
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.SessionsController.UpdateSession(System.Guid,E_LearningApi.DTOs.Session.UpdateSessionRequest,System.Threading.CancellationToken)">
+            <summary>
+                Update Session
+            </summary>
+        </member>
+        <member name="M:E_LearningApi.Controllers.SessionsController.DeleteCategory(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+                Detele Session
+            </summary>
+        </member>
+        <member name="T:E_LearningApi.Data.Migrations.Add_Order_Cart_OrderItem_CartItem">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Order_Cart_OrderItem_CartItem.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Order_Cart_OrderItem_CartItem.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Order_Cart_OrderItem_CartItem.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:E_LearningApi.Data.Migrations.Add_Enrollment_Entities">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Enrollment_Entities.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Enrollment_Entities.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Enrollment_Entities.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:E_LearningApi.Data.Migrations.addcartItemconfiguration">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.addcartItemconfiguration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.addcartItemconfiguration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.addcartItemconfiguration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:E_LearningApi.Data.Migrations.Add_CourseGroup_Entities">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_CourseGroup_Entities.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_CourseGroup_Entities.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_CourseGroup_Entities.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:E_LearningApi.Data.Migrations.Add_Avatar_Background_Properties">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Avatar_Background_Properties.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Avatar_Background_Properties.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Avatar_Background_Properties.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:E_LearningApi.Data.Migrations.Change_DateOnly_To_DateTime">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Change_DateOnly_To_DateTime.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Change_DateOnly_To_DateTime.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Change_DateOnly_To_DateTime.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:E_LearningApi.Data.Migrations.Add_Rating_Entity">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Rating_Entity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Rating_Entity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Rating_Entity.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:E_LearningApi.Data.Migrations.Add_Create_Update_Time_And_IsEdit">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Create_Update_Time_And_IsEdit.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Create_Update_Time_And_IsEdit.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:E_LearningApi.Data.Migrations.Add_Create_Update_Time_And_IsEdit.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:E_LearningApi.DTOs.Auth.GetResetPasswordEmail.Email">
+            <example>user@example.com</example>
+        </member>
+        <member name="P:E_LearningApi.DTOs.Auth.LoginRequest.Email">
+            <example>userexample@gmail.com</example>
+        </member>
+        <member name="P:E_LearningApi.DTOs.Auth.LoginRequest.Password">
+            <example>Abcd@1234</example>
+        </member>
+        <member name="P:E_LearningApi.DTOs.Auth.RegisterRequest.Email">
+            <example>user@example.com</example>
+        </member>
+        <member name="P:E_LearningApi.DTOs.Auth.RegisterRequest.Password">
+            <example>Abcd@1234</example>
+        </member>
+        <member name="P:E_LearningApi.DTOs.Auth.RegisterRequest.ConfirmPassword">
+            <example>Abcd@1234</example>
+        </member>
+        <member name="P:E_LearningApi.DTOs.Auth.RegisterRequest.FirstName">
+            <example>Trung</example>
+        </member>
+        <member name="P:E_LearningApi.DTOs.Auth.RegisterRequest.LastName">
+            <example>Pham</example>
+        </member>
+        <member name="P:E_LearningApi.DTOs.Auth.ResetPasswordRequest.Password">
+            <example>Abcd@1234</example>
+        </member>
+        <member name="P:E_LearningApi.DTOs.Auth.ResetPasswordRequest.ConfirmPassword">
+            <example>Abcd@1234</example>
+        </member>
+        <member name="P:E_LearningApi.DTOs.Auth.UpdateProfileRequest.FirstName">
+            <example>Trung</example>
+        </member>
+        <member name="P:E_LearningApi.DTOs.Auth.UpdateProfileRequest.LastName">
+            <example>Pham</example>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,316 @@
+.course-viewer-layout {
+  display: block;
+  width: 100vw;
+  --course-viewer-height: 50px;
+}
+
+.course-viewer-topBar {
+  height: var(--course-viewer-height);
+  background-color: #29303b;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+}
+
+.back-button {
+  width: 60px;
+  height: var(--course-viewer-height);
+  display: flex;
+  cursor: pointer;
+  transition: background-color linear 0.2s;
+}
+
+.back-button:hover {
+  background-color: grey;
+}
+
+.back-button-icon {
+  margin: auto;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.course-viewer-logo {
+  text-decoration: none;
+  outline: none;
+  position: relative;
+  top: 1px;
+  margin-left: 8px;
+
+  font-size: 1.4rem;
+  background: linear-gradient(
+    157deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(127, 64, 244, 1) 0%,
+    rgba(0, 186, 217, 1) 100%
+  );
+  color: #fff;
+  padding: 0.4rem;
+
+  height: 36px;
+  border-radius: 8px;
+}
+
+.course-viewer-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-left: 16px;
+  color: #fff;
+  overflow: hidden;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}
+
+.course-viewer-action {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.course-viewer-toggle-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  background-color: transparent;
+  color: #fff;
+  margin: 0 8px;
+  cursor: pointer;
+  border: none;
+}
+
+/* ===================================== Course Video ============================================= */
+.course-viewer-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 1px;
+  width: 77%;
+  margin-top: 50px;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+}
+
+.course-viewer-video::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background-color: #0004;
+}
+
+.course-viewer-video::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.course-video-container {
+  width: 100%;
+  position: relative;
+  background-color: #000000;
+  padding: 0 8.5%;
+}
+
+.course-video-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.course-video-player {
+  /* width: 100%;
+  height: 100%; */
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.course-video-placeholder {
+  height: 50rem;
+}
+
+.course-viewer-description-container {
+  padding: 0 8.5%;
+  min-height: 400px;
+}
+
+.course-viewer-courseName {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.course-viewer-courseName header h1 {
+  margin: 48px 0 8px;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.course-viewer-courseName header p {
+  font-size: 1.2rem;
+  margin-bottom: 35px;
+}
+
+.course-viewer-courseDescription {
+  color: #292929;
+  word-wrap: break-word;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.course-viewer-courseDescription p {
+  margin: 10px 0;
+}
+
+/* ============================================== Course Viewer Overlay ==================================================== */
+.course-viewer-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 98;
+  background-color: #0003;
+}
+
+.course-viewer-overlay.listCourseToggle {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 98;
+  background-color: #0003;
+}
+
+/* ============================================== Course Session Lessons List ====================================================== */
+.course-sesstion-list {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  bottom: 1px;
+  width: 23%;
+  margin-top: 50px;
+  border-left: 1px solid #e7e7e7;
+}
+
+.course-sesstion-list.listCourseToggle {
+  transform: translateX(-100%);
+}
+
+.course-session-list-container {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-session-list-container header {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-session-list-container header h1 {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.course-session-list-button {
+  font-size: 1.4rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 1650px) {
+  .course-video-placeholder {
+    height: 33rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  .course-video-placeholder {
+    height: 30rem;
+  }
+}
+
+@media (max-width: 1350px) {
+  .course-viewer-video {
+    width: 70%;
+  }
+
+  .course-sesstion-list {
+    width: 30%;
+  }
+
+  .course-video-placeholder {
+    height: 28rem;
+  }
+}
+
+@media (max-width: 940px) {
+  .course-viewer-video {
+    width: 100%;
+  }
+
+  .course-viewer-toggle-btn {
+    display: flex;
+  }
+
+  .course-sesstion-list {
+    position: fixed;
+    top: 0;
+    right: -50%;
+    z-index: 2;
+    bottom: 1px;
+    width: 50%;
+    margin-top: 0px;
+    border-left: 1px solid #e7e7e7;
+    z-index: 99;
+    transition: all 0.3s;
+  }
+
+  .course-session-list-button {
+    display: block;
+  }
+
+  .course-video-placeholder {
+    height: 27rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .course-video-container {
+    padding: 0;
+  }
+
+  .course-sesstion-list {
+    right: -100%;
+    width: 100%;
+  }
+
+  .course-video-placeholder {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .course-video-placeholder {
+    height: 15rem;
+  }
+}

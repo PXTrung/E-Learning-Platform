@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\sieve\\configurations\\getlistuserssieveconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\sieve\\configurations\\getlistuserssieveconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\sieve\\configurations\\getlistcategoriessieveconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\sieve\\configurations\\getlistcategoriessieveconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\sieve\\configurations\\getlistcoursessieveconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\sieve\\configurations\\getlistcoursessieveconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\dtos\\auth\\getlistusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\dtos\\auth\\getlistusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\services\\courses\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\services\\courses\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\services\\emails\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\services\\emails\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\services\\files\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\services\\files\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\data\\configurations\\coursegroupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\data\\configurations\\coursegroupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\mapping\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\mapping\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetListUsersSieveConfiguration.cs",
+              "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Sieve\\Configurations\\GetListUsersSieveConfiguration.cs",
+              "RelativeDocumentMoniker": "E-LearningApi\\Sieve\\Configurations\\GetListUsersSieveConfiguration.cs",
+              "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Sieve\\Configurations\\GetListUsersSieveConfiguration.cs",
+              "RelativeToolTip": "E-LearningApi\\Sieve\\Configurations\\GetListUsersSieveConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:34:42.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetListCategoriesSieveConfiguration.cs",
+              "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Sieve\\Configurations\\GetListCategoriesSieveConfiguration.cs",
+              "RelativeDocumentMoniker": "E-LearningApi\\Sieve\\Configurations\\GetListCategoriesSieveConfiguration.cs",
+              "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Sieve\\Configurations\\GetListCategoriesSieveConfiguration.cs",
+              "RelativeToolTip": "E-LearningApi\\Sieve\\Configurations\\GetListCategoriesSieveConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:08:43.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Courses\\CourseService.cs",
+              "RelativeDocumentMoniker": "E-LearningApi\\Services\\Courses\\CourseService.cs",
+              "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Courses\\CourseService.cs",
+              "RelativeToolTip": "E-LearningApi\\Services\\Courses\\CourseService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:28:57.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Emails\\EmailService.cs",
+              "RelativeDocumentMoniker": "E-LearningApi\\Services\\Emails\\EmailService.cs",
+              "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Emails\\EmailService.cs",
+              "RelativeToolTip": "E-LearningApi\\Services\\Emails\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:20:03.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Files\\FileService.cs",
+              "RelativeDocumentMoniker": "E-LearningApi\\Services\\Files\\FileService.cs",
+              "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Files\\FileService.cs",
+              "RelativeToolTip": "E-LearningApi\\Services\\Files\\FileService.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAcwKIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:09:29.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CourseGroupConfiguration.cs",
+              "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Data\\Configurations\\CourseGroupConfiguration.cs",
+              "RelativeDocumentMoniker": "E-LearningApi\\Data\\Configurations\\CourseGroupConfiguration.cs",
+              "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Data\\Configurations\\CourseGroupConfiguration.cs",
+              "RelativeToolTip": "E-LearningApi\\Data\\Configurations\\CourseGroupConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T12:46:31.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetListCoursesSieveConfiguration.cs",
+              "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Sieve\\Configurations\\GetListCoursesSieveConfiguration.cs",
+              "RelativeDocumentMoniker": "E-LearningApi\\Sieve\\Configurations\\GetListCoursesSieveConfiguration.cs",
+              "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Sieve\\Configurations\\GetListCoursesSieveConfiguration.cs",
+              "RelativeToolTip": "E-LearningApi\\Sieve\\Configurations\\GetListCoursesSieveConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T07:25:23.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Mapping\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "E-LearningApi\\Mapping\\MappingProfiles.cs",
+              "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Mapping\\MappingProfiles.cs",
+              "RelativeToolTip": "E-LearningApi\\Mapping\\MappingProfiles.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAIAwwG8AAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:31:48.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetListUsers.cs",
+              "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\DTOs\\Auth\\GetListUsers.cs",
+              "RelativeDocumentMoniker": "E-LearningApi\\DTOs\\Auth\\GetListUsers.cs",
+              "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\DTOs\\Auth\\GetListUsers.cs",
+              "RelativeToolTip": "E-LearningApi\\DTOs\\Auth\\GetListUsers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:29:16.239Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

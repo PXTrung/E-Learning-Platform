@@ -170,3 +170,4 @@ D:\Practice\Final_React\Final_Project_BE\E-LearningApi\E-LearningApi\bin\Debug\n
 D:\Practice\Final_React\Final_Project_BE\E-LearningApi\E-LearningApi\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
 D:\Practice\Final_React\Final_Project_BE\E-LearningApi\E-LearningApi\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
 D:\Practice\Final_React\Final_Project_BE\E-LearningApi\E-LearningApi\bin\Debug\net8.0\Hangfire.MemoryStorage.dll
+D:\Practice\Final_React\Final_Project_BE\E-LearningApi\E-LearningApi\obj\Debug\net8.0\E-LearningApi.sourcelink.json

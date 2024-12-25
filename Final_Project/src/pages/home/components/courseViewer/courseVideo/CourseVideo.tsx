@@ -50,7 +50,6 @@ const CourseVideo = ({ lesson, course }: Props) => {
           <div className="course-viewer-courseName">
             <header>
               <h1>{lesson?.name}</h1>
-              <p>Updated on 12/02/2003</p>
             </header>
           </div>
 

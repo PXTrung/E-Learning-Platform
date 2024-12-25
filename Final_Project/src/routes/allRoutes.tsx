@@ -86,12 +86,13 @@ const homeRoute = (
       path: `${PATHS.HOME.IDENTITY}/${PATHS.HOME.CHECKOUT}`,
       element: <CheckoutPage options={options} clientSecret={clientSecret} />,
     },
-    {
-      path: `${PATHS.HOME.COMPLETED}`,
-      element: <CompletePurchasePage />,
-    },
   ],
 });
+
+const completePurchaseRoute = {
+  path: `${PATHS.HOME.COMPLETED}`,
+  element: <CompletePurchasePage />,
+};
 
 const courseViewerRoute = {
   path: `/course/${PARAMETER.COURSEID}/session/${PARAMETER.SESSIONID}/learning/${PARAMETER.ID}`,
@@ -180,5 +181,6 @@ export default function AllRoutes() {
     adminRoute,
     courseGroupRoute,
     padiCourseDetailRoute,
+    completePurchaseRoute,
   ]);
 }

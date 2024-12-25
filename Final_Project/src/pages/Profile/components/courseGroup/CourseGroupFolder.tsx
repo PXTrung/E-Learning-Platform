@@ -3,13 +3,15 @@ import { useDisclosure } from "@mantine/hooks";
 import { useState } from "react";
 import { BiDotsVerticalRounded } from "react-icons/bi";
 import { CiEdit } from "react-icons/ci";
-import { IoAdd } from "react-icons/io5";
+import { IoAdd, IoTrashOutline } from "react-icons/io5";
 import folder from "../../../../assets/images/Folder_Image.png";
 import { CourseGroups } from "../../../../services/interfaces";
 import EditCourseGroupModal from "../modal/courseGroup/EditCourseGroupModal";
 import CourseGroupBottomModal from "./components/modal/CourseGroupBottomModal";
 import CourseGroupTopModal from "./components/modal/CourseGroupTopModal";
 import { useDroppable } from "@dnd-kit/core";
+import useCourseGroup from "../../../../hooks/courseGroup/useCourseGroup";
+import courseGroup from "../../../../services/modules/courseGroup";
 
 interface Props {
   HandleClick: (id: string) => void;
@@ -21,6 +23,8 @@ const CourseGroupFolder = ({ HandleClick, CourseGroup }: Props) => {
   const { setNodeRef, isOver } = useDroppable({
     id: CourseGroup.id,
   });
+
+  const { deleteCourseGroup, deleteCourseGroupMutation } = useCourseGroup();
 
   const style = {
     opacity: isOver ? 0.6 : 1,
@@ -86,6 +90,18 @@ const CourseGroupFolder = ({ HandleClick, CourseGroup }: Props) => {
                 }}
               >
                 Add/Delete Course
+              </Menu.Item>
+              <Menu.Item
+                color="red"
+                leftSection={
+                  <IoTrashOutline style={{ width: "1rem", height: "1rem" }} />
+                }
+                onClick={(e) => {
+                  e.stopPropagation();
+                  deleteCourseGroup(CourseGroup.id);
+                }}
+              >
+                Delete Group
               </Menu.Item>
             </Menu.Dropdown>
           </Menu>

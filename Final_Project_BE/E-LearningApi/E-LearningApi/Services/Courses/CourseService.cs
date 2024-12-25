@@ -61,6 +61,7 @@ namespace E_LearningApi.Services.Courses
                 .Include(c => c.Sessions)
                 .ThenInclude(c => c.Lessions)
                 .Include(c => c.Ratings)
+                .OrderBy(c => c.CreatedAt)
                 .ToListAsync();
 
             //var coursesDto = _mapper.ProjectTo<GetListCourses>(courses);

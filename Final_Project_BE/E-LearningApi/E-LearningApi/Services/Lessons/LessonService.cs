@@ -66,7 +66,7 @@ namespace E_LearningApi.Services.Lessons
 
         public Task<IQueryable<GetListLessons>> GetLessionsInSessionAsync(Guid id)
         {
-            var lessons = _context.Lessons.Where(s => s.SessionId.Equals(id)).AsNoTracking();
+            var lessons = _context.Lessons.Where(s => s.SessionId.Equals(id)).OrderBy(s => s.CreatedAt).AsNoTracking();
             var lessonsDto = _mapper.ProjectTo<GetListLessons>(lessons);
 
             // return a Task that wraps the IQueryable<GetListLevels>

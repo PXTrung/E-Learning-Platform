@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\services\\categories\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\services\\categories\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\services\\emails\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\services\\emails\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\controllers\\coursegroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\controllers\\coursegroupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\services\\courses\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\services\\courses\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\services\\lessons\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\services\\lessons\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\services\\sessions\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\services\\sessions\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\sieve\\configurations\\getlistuserssieveconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\sieve\\configurations\\getlistuserssieveconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\dtos\\auth\\getlistusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\dtos\\auth\\getlistusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\services\\courses\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\services\\courses\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\services\\emails\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|solutionrelative:e-learningapi\\services\\emails\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05A85613-9B54-4532-B504-C6E471D6692C}|E-LearningApi\\E-LearningApi.csproj|d:\\practice\\final_react\\final_project_be\\e-learningapi\\e-learningapi\\services\\files\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,6 +67,56 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Categories\\CategoryService.cs",
+              "RelativeDocumentMoniker": "E-LearningApi\\Services\\Categories\\CategoryService.cs",
+              "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Categories\\CategoryService.cs",
+              "RelativeToolTip": "E-LearningApi\\Services\\Categories\\CategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T01:54:06.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseGroupsController.cs",
+              "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Controllers\\CourseGroupsController.cs",
+              "RelativeDocumentMoniker": "E-LearningApi\\Controllers\\CourseGroupsController.cs",
+              "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Controllers\\CourseGroupsController.cs",
+              "RelativeToolTip": "E-LearningApi\\Controllers\\CourseGroupsController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowEwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:45:37.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SessionService.cs",
+              "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Sessions\\SessionService.cs",
+              "RelativeDocumentMoniker": "E-LearningApi\\Services\\Sessions\\SessionService.cs",
+              "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Sessions\\SessionService.cs",
+              "RelativeToolTip": "E-LearningApi\\Services\\Sessions\\SessionService.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwEIAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:50:23.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LessonService.cs",
+              "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Lessons\\LessonService.cs",
+              "RelativeDocumentMoniker": "E-LearningApi\\Services\\Lessons\\LessonService.cs",
+              "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Lessons\\LessonService.cs",
+              "RelativeToolTip": "E-LearningApi\\Services\\Lessons\\LessonService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA5wEQAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:49:25.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GetListUsersSieveConfiguration.cs",
               "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Sieve\\Configurations\\GetListUsersSieveConfiguration.cs",
               "RelativeDocumentMoniker": "E-LearningApi\\Sieve\\Configurations\\GetListUsersSieveConfiguration.cs",
@@ -58,12 +124,11 @@
               "RelativeToolTip": "E-LearningApi\\Sieve\\Configurations\\GetListUsersSieveConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:34:42.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T15:34:42.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "GetListCategoriesSieveConfiguration.cs",
               "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Sieve\\Configurations\\GetListCategoriesSieveConfiguration.cs",
               "RelativeDocumentMoniker": "E-LearningApi\\Sieve\\Configurations\\GetListCategoriesSieveConfiguration.cs",
@@ -75,31 +140,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CourseService.cs",
               "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Courses\\CourseService.cs",
               "RelativeDocumentMoniker": "E-LearningApi\\Services\\Courses\\CourseService.cs",
               "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Courses\\CourseService.cs",
               "RelativeToolTip": "E-LearningApi\\Services\\Courses\\CourseService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwB8AAAAFAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowD8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T14:28:57.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "EmailService.cs",
               "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Emails\\EmailService.cs",
               "RelativeDocumentMoniker": "E-LearningApi\\Services\\Emails\\EmailService.cs",
               "ToolTip": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Emails\\EmailService.cs",
               "RelativeToolTip": "E-LearningApi\\Services\\Emails\\EmailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:20:03.927Z"
+              "WhenOpened": "2024-12-02T13:20:03.927Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "FileService.cs",
               "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Services\\Files\\FileService.cs",
               "RelativeDocumentMoniker": "E-LearningApi\\Services\\Files\\FileService.cs",
@@ -111,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "CourseGroupConfiguration.cs",
               "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Data\\Configurations\\CourseGroupConfiguration.cs",
               "RelativeDocumentMoniker": "E-LearningApi\\Data\\Configurations\\CourseGroupConfiguration.cs",
@@ -123,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "GetListCoursesSieveConfiguration.cs",
               "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Sieve\\Configurations\\GetListCoursesSieveConfiguration.cs",
               "RelativeDocumentMoniker": "E-LearningApi\\Sieve\\Configurations\\GetListCoursesSieveConfiguration.cs",
@@ -135,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "MappingProfiles.cs",
               "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\Mapping\\MappingProfiles.cs",
               "RelativeDocumentMoniker": "E-LearningApi\\Mapping\\MappingProfiles.cs",
@@ -147,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "GetListUsers.cs",
               "DocumentMoniker": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\DTOs\\Auth\\GetListUsers.cs",
               "RelativeDocumentMoniker": "E-LearningApi\\DTOs\\Auth\\GetListUsers.cs",

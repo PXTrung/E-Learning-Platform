@@ -50,10 +50,6 @@ const PaidCourseDetail = () => {
                   <div className="listCourses-subHeader">
                     <ul>
                       <li>
-                        <strong>11</strong> Sessions
-                      </li>
-                      <li className="dot">.</li>
-                      <li>
                         <strong>{data?.data.numberOfLessons}</strong> Lessons
                       </li>
                       <li className="dot">.</li>

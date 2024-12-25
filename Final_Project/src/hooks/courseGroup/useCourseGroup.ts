@@ -58,6 +58,24 @@ const useCourseGroup = () => {
                 toast.error("Something wrong happen. Try again!");
               }
         }
+    });
+
+    const deleteCourseGroupMutation = useMutation({
+        mutationFn: async (id: string) => {
+            return await api.courseGroup.deleteCourseGroup(id);
+        },
+        onSuccess: () => {
+            queryClient.invalidateQueries({ queryKey: ["courseGroups", token] })
+            queryClient.invalidateQueries({ queryKey: ["enrollments", token] })
+        },
+        onError: (error : unknown) => {
+            if (error instanceof AxiosError) {
+                const errorMessage = error.response?.data?.message || "Group delete fail";
+                toast.error(errorMessage);
+              } else {
+                toast.error("Something wrong happen. Try again!");
+              }
+        }
     })
 
     const createCourseGroup = (data: CourseGroupFormValue) => {
@@ -68,7 +86,11 @@ const useCourseGroup = () => {
         editCourseGroupsMutation.mutate(data);
     }
 
-    return {getCourseGroups, getCourseGroupById ,createCourseGroup, editCourseGroup, createCourseGroupsMutation, editCourseGroupsMutation}
+    const deleteCourseGroup = (id: string) => {
+        deleteCourseGroupMutation.mutate(id);
+    }
+
+    return {getCourseGroups, getCourseGroupById ,createCourseGroup, editCourseGroup, deleteCourseGroup, createCourseGroupsMutation, editCourseGroupsMutation, deleteCourseGroupMutation}
 }
 
 export default useCourseGroup;

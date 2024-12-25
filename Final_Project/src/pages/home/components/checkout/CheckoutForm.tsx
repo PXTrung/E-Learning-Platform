@@ -8,6 +8,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import api from "../../../../services/api";
 import { FaAddressCard } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 interface Props {
   total?: number;

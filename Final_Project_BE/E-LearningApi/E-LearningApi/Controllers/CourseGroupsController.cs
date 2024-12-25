@@ -74,7 +74,8 @@ namespace E_LearningApi.Controllers
         ///     Detele Course Groups
         /// </summary>
         [HttpDelete]
-        public async Task<IActionResult> DeleteCategory(Guid id, CancellationToken cancellationToken)
+        [Route("{id:guid}")]
+        public async Task<IActionResult> DeleteCategory([FromRoute]Guid id, CancellationToken cancellationToken)
         {
             await _courseGroupService.DeleteCourseGroupAsync(id, cancellationToken);
             return Ok(new { Message = "Delte courseGroup successfully" });

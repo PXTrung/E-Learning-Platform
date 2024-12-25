@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\thumbnail\\5b32a210-7ea6-4220-a653-1b77a3b1670c.png"
     },
     {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\thumbnail\\73b472d4-5707-421d-9783-6a2eb7964c02.jpeg",
+      "PackagePath": "staticwebassets\\thumbnail\\73b472d4-5707-421d-9783-6a2eb7964c02.jpeg"
+    },
+    {
       "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\thumbnail\\e04a413f-bfb2-4eb9-b315-13fff6f55415.png",
       "PackagePath": "staticwebassets\\thumbnail\\e04a413f-bfb2-4eb9-b315-13fff6f55415.png"
     },
@@ -37,32 +41,192 @@
       "PackagePath": "staticwebassets\\thumbnail\\f63a783e-3d50-4fcb-886c-43069f2f2a41.jpg"
     },
     {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\02e2f034-f676-465d-99c3-7a1292899afb.mp4",
+      "PackagePath": "staticwebassets\\video\\02e2f034-f676-465d-99c3-7a1292899afb.mp4"
+    },
+    {
       "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\088edc51-f505-408c-83e4-c2846ff472fc.mp4",
       "PackagePath": "staticwebassets\\video\\088edc51-f505-408c-83e4-c2846ff472fc.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\0b0c3421-f194-4a6d-a834-3699feb86b25.mp4",
+      "PackagePath": "staticwebassets\\video\\0b0c3421-f194-4a6d-a834-3699feb86b25.mp4"
     },
     {
       "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\18fb9c6f-b818-4eb1-b6d1-ff64ed8c221d.mp4",
       "PackagePath": "staticwebassets\\video\\18fb9c6f-b818-4eb1-b6d1-ff64ed8c221d.mp4"
     },
     {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\1b0d420e-d2b0-43a7-bf7b-82cc221f6f93.mp4",
+      "PackagePath": "staticwebassets\\video\\1b0d420e-d2b0-43a7-bf7b-82cc221f6f93.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\1b357968-6dd9-4220-9fa3-3eb12e03ff7f.mp4",
+      "PackagePath": "staticwebassets\\video\\1b357968-6dd9-4220-9fa3-3eb12e03ff7f.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\3039def2-afda-43b9-aa93-4be3daae59e8.mp4",
+      "PackagePath": "staticwebassets\\video\\3039def2-afda-43b9-aa93-4be3daae59e8.mp4"
+    },
+    {
       "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\385c7388-148b-4d98-82da-2ea732f85285.mp4",
       "PackagePath": "staticwebassets\\video\\385c7388-148b-4d98-82da-2ea732f85285.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\3d3e5e76-a4dd-424d-b446-22c175d098f3.mp4",
+      "PackagePath": "staticwebassets\\video\\3d3e5e76-a4dd-424d-b446-22c175d098f3.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\3f6df6fd-9f81-436a-8444-2230f21c3d59.mp4",
+      "PackagePath": "staticwebassets\\video\\3f6df6fd-9f81-436a-8444-2230f21c3d59.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\40f7d501-b8f1-4145-a1c0-be029cfeb90c.mp4",
+      "PackagePath": "staticwebassets\\video\\40f7d501-b8f1-4145-a1c0-be029cfeb90c.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\4781b908-6c28-4717-983a-c414c8747183.mp4",
+      "PackagePath": "staticwebassets\\video\\4781b908-6c28-4717-983a-c414c8747183.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\4c53e165-04b2-492b-84e6-fb2e879d8d59.mp4",
+      "PackagePath": "staticwebassets\\video\\4c53e165-04b2-492b-84e6-fb2e879d8d59.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\50196b23-5dbd-4e1b-8c8b-99da5c7f9e3c.mp4",
+      "PackagePath": "staticwebassets\\video\\50196b23-5dbd-4e1b-8c8b-99da5c7f9e3c.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\5872a757-5976-4d60-b8af-c8312c8be15f.mp4",
+      "PackagePath": "staticwebassets\\video\\5872a757-5976-4d60-b8af-c8312c8be15f.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\59045ef5-0123-45d3-86e8-7b144f2cc0b6.mp4",
+      "PackagePath": "staticwebassets\\video\\59045ef5-0123-45d3-86e8-7b144f2cc0b6.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\5c5efed7-6209-405f-8920-be5d5712d67c.mp4",
+      "PackagePath": "staticwebassets\\video\\5c5efed7-6209-405f-8920-be5d5712d67c.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\60aef8dd-b319-4014-aad5-a5d52b36a226.mp4",
+      "PackagePath": "staticwebassets\\video\\60aef8dd-b319-4014-aad5-a5d52b36a226.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\63703c33-f7b5-44ed-b6e0-d146e32c2093.mp4",
+      "PackagePath": "staticwebassets\\video\\63703c33-f7b5-44ed-b6e0-d146e32c2093.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\8207c14b-11ec-4556-ba75-2e28c99c6d34.mp4",
+      "PackagePath": "staticwebassets\\video\\8207c14b-11ec-4556-ba75-2e28c99c6d34.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\85045624-5896-4fa2-8ca2-132fef15037e.mp4",
+      "PackagePath": "staticwebassets\\video\\85045624-5896-4fa2-8ca2-132fef15037e.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\8c79bcb9-2bda-4193-bfaf-3dcfaed92f06.mp4",
+      "PackagePath": "staticwebassets\\video\\8c79bcb9-2bda-4193-bfaf-3dcfaed92f06.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\9e04a90f-a7b5-4f79-994c-6c53904d7984.mp4",
+      "PackagePath": "staticwebassets\\video\\9e04a90f-a7b5-4f79-994c-6c53904d7984.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\a03de1df-ea3b-4af1-b204-252bebd6b68a.mp4",
+      "PackagePath": "staticwebassets\\video\\a03de1df-ea3b-4af1-b204-252bebd6b68a.mp4"
     },
     {
       "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\b274c808-00c4-435b-9717-45da93ef56d4.mp4",
       "PackagePath": "staticwebassets\\video\\b274c808-00c4-435b-9717-45da93ef56d4.mp4"
     },
     {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\b2b6e601-1d79-470a-8000-af85fbb265e7.mp4",
+      "PackagePath": "staticwebassets\\video\\b2b6e601-1d79-470a-8000-af85fbb265e7.mp4"
+    },
+    {
       "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\b3b44249-d8ca-4443-8800-372832413625.mp4",
       "PackagePath": "staticwebassets\\video\\b3b44249-d8ca-4443-8800-372832413625.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\b72c0cee-341f-4899-9f58-028d65b1cbd6.mp4",
+      "PackagePath": "staticwebassets\\video\\b72c0cee-341f-4899-9f58-028d65b1cbd6.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\b85b1d1b-fd1c-45ca-8b3e-45c84588290e.mp4",
+      "PackagePath": "staticwebassets\\video\\b85b1d1b-fd1c-45ca-8b3e-45c84588290e.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\b8fb1d31-b3b3-465f-97ce-a71fccf42443.mp4",
+      "PackagePath": "staticwebassets\\video\\b8fb1d31-b3b3-465f-97ce-a71fccf42443.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\ba7a45b6-70bf-46d9-bdad-6b814219726a.mp4",
+      "PackagePath": "staticwebassets\\video\\ba7a45b6-70bf-46d9-bdad-6b814219726a.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\c3c1ea30-9ce8-4142-82d4-e7f8b118f72c.mp4",
+      "PackagePath": "staticwebassets\\video\\c3c1ea30-9ce8-4142-82d4-e7f8b118f72c.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\c5f83a32-1362-45b4-8770-628149fdbb4d.mp4",
+      "PackagePath": "staticwebassets\\video\\c5f83a32-1362-45b4-8770-628149fdbb4d.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\cb3891ed-09eb-4263-8805-861c9fd877d2.mp4",
+      "PackagePath": "staticwebassets\\video\\cb3891ed-09eb-4263-8805-861c9fd877d2.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\d2298008-7376-41c1-b69a-18fda5450a03.mp4",
+      "PackagePath": "staticwebassets\\video\\d2298008-7376-41c1-b69a-18fda5450a03.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\d3135188-18d3-4c38-aed3-0eae7f3b0d42.mp4",
+      "PackagePath": "staticwebassets\\video\\d3135188-18d3-4c38-aed3-0eae7f3b0d42.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\d81ce2bc-805d-4b31-83b6-b36d6f56ae03.mp4",
+      "PackagePath": "staticwebassets\\video\\d81ce2bc-805d-4b31-83b6-b36d6f56ae03.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\dbb452fd-ec2d-4b8d-8df0-a6ea69fcc2a9.mp4",
+      "PackagePath": "staticwebassets\\video\\dbb452fd-ec2d-4b8d-8df0-a6ea69fcc2a9.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\e085c7cc-846c-497f-810b-de30adbb1cca.mp4",
+      "PackagePath": "staticwebassets\\video\\e085c7cc-846c-497f-810b-de30adbb1cca.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\ef52beb5-35f5-4792-90a5-d894fd045527.mp4",
+      "PackagePath": "staticwebassets\\video\\ef52beb5-35f5-4792-90a5-d894fd045527.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\f52f8753-92ce-4519-a5c1-50087244c38b.mp4",
+      "PackagePath": "staticwebassets\\video\\f52f8753-92ce-4519-a5c1-50087244c38b.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\f7712999-3c13-406f-8b91-0ca590807879.mp4",
+      "PackagePath": "staticwebassets\\video\\f7712999-3c13-406f-8b91-0ca590807879.mp4"
     },
     {
       "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\f7e3b86f-2093-441d-8b72-f5b205b5cbb3.mp4",
       "PackagePath": "staticwebassets\\video\\f7e3b86f-2093-441d-8b72-f5b205b5cbb3.mp4"
     },
     {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\fcc398bf-33c7-4bc6-b924-43fc3508a8ef.mp4",
+      "PackagePath": "staticwebassets\\video\\fcc398bf-33c7-4bc6-b924-43fc3508a8ef.mp4"
+    },
+    {
       "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\fd4f7a8f-b389-487c-8ade-437f2f829416.mp4",
       "PackagePath": "staticwebassets\\video\\fd4f7a8f-b389-487c-8ade-437f2f829416.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\fddd6aff-fba7-4e93-b159-8bb34a7eaf9e.mp4",
+      "PackagePath": "staticwebassets\\video\\fddd6aff-fba7-4e93-b159-8bb34a7eaf9e.mp4"
+    },
+    {
+      "Id": "D:\\Practice\\Final_React\\Final_Project_BE\\E-LearningApi\\E-LearningApi\\wwwroot\\video\\fdf9e466-34f0-4bc9-9f35-440fe2d3cea7.mp4",
+      "PackagePath": "staticwebassets\\video\\fdf9e466-34f0-4bc9-9f35-440fe2d3cea7.mp4"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E-LearningApi.Microsoft.AspNetCore.StaticWebAssets.props",

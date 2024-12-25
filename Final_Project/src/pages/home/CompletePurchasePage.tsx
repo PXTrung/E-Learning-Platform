@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { PATHS } from "../../constants/path";
 
 const CompletePurchasePage = () => {
   return (
@@ -18,11 +19,14 @@ const CompletePurchasePage = () => {
                 <span className="inner-go-home-title">Go to Home</span>
               </span>
             </Link>
-            <a href="#" className="payment-success-go-home">
+            <Link
+              to={`/${PATHS.PROFILE.IDENTITY}/courses`}
+              className="payment-success-go-home"
+            >
               <span className="inner-go-home">
                 <span className="inner-go-home-title">Go to Library</span>
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

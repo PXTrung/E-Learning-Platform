@@ -40,5 +40,14 @@ export default {
             })
             return response.data;
         }
+    },
+    deleteCourseGroup: async(id: string) => {
+        const token = authUtils.getSessionToken();
+        if(token){
+            const response =  await axios.delete(`${ENDPOINTS.COURSEGROUP.ALL}/${id}`, {
+                headers: { Authorization: `Bearer ${token}` }
+            })
+            return response.data;
+        }
     }
 }
